@@ -1,21 +1,20 @@
-# Task Tracker CLI
+## Task Tracker CLI
+A simple CLI tool for task management (todo/in-progress/done) that persists data to tasks.json.
 
-Простой CLI-проект для управления задачами (todo/in-progress/done), хранящий данные в `tasks.json`.
+## Description
+A lightweight command-line utility to create, update, delete, and filter tasks.
 
-## Описание
-Небольшой инструмент командной строки для создания, обновления, удаления и фильтрации задач. 
+## Features
+Add a task: `add "description"`
+Update description: `update <id> "new description"`
+Delete a task: `delete <id>`
+Mark status: `mark <id> <status> (todo, in_progress, done)`
+List tasks: `list or list <status>`
+Automatically saves data to tasks.json
+Each task includes an id, description, status, createdAt, and updatedAt
 
-## Возможности
-- Добавить задачу: `add "description"`
-- Обновить описание: `update <id> "new description"`
-- Удалить задачу: `delete <id>`
-- Пометить статус: `mark <id> <status>` (`todo`, `in_progress`, `done`)
-- Список задач: `list` или `list <status>`
-- Автоматическое хранение в `tasks.json`
-- Каждая задача имеет `id`, `description`, `status`, `createdAt`, `updatedAt`
+## Requirements
+Python 3.8+
 
-## Требования
-- Python 3.8+
-
-## Установка
-1. Клонируйте репозиторий или скопируйте файлы проекта в папку.
+## Installation
+Clone the repository or copy the project files into a directory.
